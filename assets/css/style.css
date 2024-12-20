@@ -34,14 +34,14 @@
     hsla(240, 2%, 11%, 0) 100%
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
-    to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+  to bottom right, 
+  hsl(180, 100%, 50%) 0%, 
+  hsla(180, 100%, 50%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
+    hsla(180, 100%, 50%, 0.251) 0%, 
+    hsla(180, 100%, 50%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -49,10 +49,12 @@
     hsla(0, 0%, 25%, 0) 50%
   );
   --text-gradient-yellow: linear-gradient(
-    to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+  to right, 
+  hsl(180, 100%, 50%),
+  hsl(185, 100%, 45%)
   );
+
+  --neon-glow: 0 0 10px hsl(180, 100%, 50%);
 
   /* solid */
 
@@ -63,8 +65,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(180, 100%, 50%);
+  --vegas-gold: hsl(180, 70%, 45%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -354,6 +356,15 @@ main {
   border-radius: 8px;
 }
 
+.certification-logos {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;  /* reduced from 15px to 8px */
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -459,7 +470,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(212, 76%, 52%, 0.75);
+  background: hsl(176, 91%, 18%);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -750,7 +761,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: none;
   transition: var(--transition-1);
 }
 
@@ -1904,11 +1915,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   .skills-content-box-without-icons {
     padding: 10px;
     text-align: center;
-    border: 1px solid #c3ac6a;
+    border: 1px solid #43bbd1;
     border-radius: 10px; /* Add rounded corners */
   }
 
-  .social-item a i {color: #c3b1a3; /* Change this to the desired color for social icons */}
+  .social-item a i {color: #43bbd1; /* Change this to the desired color for social icons */}
   
   .avatar-box img {border-radius: 00%;}
   
@@ -1917,7 +1928,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     display: inline-block;
     padding: 10px 20px;
     border-radius: 20px; /* Set to half of the button height for a rounded button */
-    background-color: #e0ba51; /* Set to your desired color */
+    background-color: #43bbd1; /* Set to your desired color */
     color: #fff; /* Set to your desired text color */
     text-decoration: none;
     cursor: pointer;
