@@ -216,17 +216,28 @@
         </header>
 
         <section class="about-text">
+          <h3>
+            Hi, I'm Kush! 👋
+          </h3>
+
           <p>
-            I'm a passionate cybersecurity professional with a Master's in Cybersecurity and Privacy from the New Jersey Institute of Technology. Leveraging technical expertise and hands-on experience, I safeguard critical business infrastructure against evolving digital threats.
-            My skillset covers threat detection, incident response, data loss prevention, and compliance best practices. I have experience with languages like Python and Bash, tools such as Splunk and Burp Suite, and frameworks including NIST and PCI.
+            As a cybersecurity professional with a Master's from NJIT, I've dedicated myself to protecting digital infrastructures and investigating security incidents. My journey in information security has led me through diverse roles, from hands-on incident response to sophisticated threat hunting and SIEM implementations.
           </p>
 
           <p>
-            I have worked on projects involving EDR deployment, SOC simulations, and mobile app security audits. This has allowed me to develop a well-rounded skillset to protect organizations.
+            I'm particularly passionate about security operations and digital forensics, where I've had the opportunity to work with tools like Splunk, Azure Sentinel, and Autopsy. Whether it's analyzing malware, hunting threats, or developing incident response playbooks, I thrive on solving complex security challenges.
+          </p>
 
-            Previously, I worked as a Digital Platform Engineer monitoring data to boost client sales 15-20%.
+          <p>
+            My experience spans across SOC operations, vulnerability management, and network security, complemented by industry certifications like CompTIA Security+, Security Blue Team - Blue Team Level 1, ISC2 CC, and IBM CySA. I believe in continuous learning and staying ahead of evolving cyber threats.
+          </p>
 
-            I'm excited to utilize my passion for technology and problem-solving to build more secure systems. Outside of work, I stay curious, explore nature, and connect with family and friends. I'm looking forward to this next chapter of collaborative growth and meaningful impact.
+          <p>
+            I'm currently seeking opportunities where I can contribute to strengthening organizations' security postures while continuing to grow in areas like threat intelligence and advanced incident response. When I'm not diving into security logs or testing new detection rules, you'll find me working on personal security projects or exploring the latest developments in cybersecurity.
+          </p>
+
+          <p>
+            Let's connect and make the digital world a safer place! 🛡️
           </p>
         </section>
 
@@ -244,15 +255,15 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/threat.png
+                <img src="./assets/images/siem.png
                 " alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Threat Detection</h4>
+                <h4 class="h4 service-item-title">Security Information & Event Management</h4>
 
                 <p class="service-item-text">
-                  Hunting for anomalies and rapidly identifying incidents through analytics and log analysis.
+                  Monitoring security events and analyzing threat patterns across enterprise environments using Splunk Enterprise and Azure Sentinel.
                 </p>
               </div>
 
@@ -261,14 +272,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/incident.png" alt="Incident Response icon" width="40">
+                <img src="./assets/images/sword.png" alt="Red Team icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Incident Response</h4>
+                <h4 class="h4 service-item-title">Red Team Activities</h4>
 
                 <p class="service-item-text">
-                  Containing and eradicating security breaches through digital forensics and root cause analysis.
+                  Conducting controlled penetration testing using tools like Metasploit and Burp Suite to identify security gaps before attackers do.
                 </p>
               </div>
 
@@ -284,7 +295,7 @@
                 <h4 class="h4 service-item-title">Network Security</h4>
 
                 <p class="service-item-text">
-                  Securing corporate infrastructure through network protocols, firewalls, IPS and VPNs.
+                  Monitoring and securing network infrastructure using Wireshark, IDS/IPS tools, and firewall configurations to detect and prevent intrusions.
                 </p>
               </div>
 
@@ -293,14 +304,46 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/monitor.png" alt="Monitoring icon" width="40">
+                <img src="./assets/images/vulnerability.png" alt="Vulnerability Assessment Icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Monitoring & Analysis</h4>
+                <h4 class="h4 service-item-title">Vulnerability Assessments</h4>
 
                 <p class="service-item-text">
-                  Proactively identifying issues and gaps by monitoring networks, endpoints, logs and events.
+                  Performing systematic security assessments using Nessus and OpenVAS and other methodoliges like SAST & DAST to identify, classify, and remediate vulnerabilities.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/incident.png" alt="Incident Response Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Incident Response</h4>
+
+                <p class="service-item-text">
+                  Developing and implementing incident response playbooks while conducting root cause analysis of security incidents.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/forensics.png" alt="Digital Forensics Icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Forensics</h4>
+
+                <p class="service-item-text">
+                  Investigating compromised systems using Autopsy and Volatility to recover digital evidence and reconstruct attack timelines.
                 </p>
               </div>
 
@@ -801,6 +844,30 @@
 
         <section class="projects">
 
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Blue Team Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Red Team Projects</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Vulnerability Assessments</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>More Projects</button>
+            </li>
+
+          </ul>
+
           <div class="filter-select-box">
 
             <button class="filter-select" data-select>
@@ -813,11 +880,71 @@
 
             </button>
 
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Blue Team Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Red Team Projects</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Vulnerability Assessments</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>More Projects</button>
+              </li>
+
+            </ul>
+
           </div>
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="Vulnerability Assessment">
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
+              <a href="https://medium.com/@borikarkush/snort-ids-lab-real-time-intrusion-detection-in-a-vulnerable-network-b0927c675c39">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/snort_project.jpg" alt="Snort IDS" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SNORT - Network Intrusion Detection System</h3>
+
+                <p class="project-category">Intrusion Detection System</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
+              <a href="https://medium.com/@borikarkush/malicious-network-traffic-analysis-using-wireshark-a-walkthrough-91a1c3a258fe">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/wireshark_project.png" alt="Wireshark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">WIRESHARK - Malicious Network Traffic Analysis</h3>
+
+                <p class="project-category">Network Traffic Analysis</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="vulnerability assessments">
               <a href="https://github.com/kushb98/Application-Security-Analysis">
 
                 <figure class="project-img">
@@ -830,12 +957,12 @@
 
                 <h3 class="project-title">Application Security Analysis</h3>
 
-                <p class="project-category">Vulnerability Assessment</p>
+                <p class="project-category">Vulnerability Assessments</p>
 
               </a>
             </li>
             
-            <li class="project-item  active" data-filter-item data-category="Network">
+            <li class="project-item  active" data-filter-item data-category="more projects">
               <a href="https://github.com/kushb98/Active-Directory-Lab">
 
                 <figure class="project-img">
@@ -853,7 +980,7 @@
               </a>
             </li>
             
-            <li class="project-item  active" data-filter-item data-category="Endpoint Detection & Response">
+            <li class="project-item  active" data-filter-item data-category="blue team projects">
               <a href="https://github.com/kushb98/Xcitium---OPENEDR">
 
                 <figure class="project-img">
@@ -871,7 +998,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Filte Integrity Monitor">
+            <li class="project-item  active" data-filter-item data-category="more projects">
               <a href="https://github.com/kushb98/File-Integrity-Monitor">
 
                 <figure class="project-img">
@@ -889,7 +1016,7 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="Python Web Application">
+            <li class="project-item  active" data-filter-item data-category="more projects">
               <a href="https://github.com/kushb98/Secure-Bank-Web-Application">
 
                 <figure class="project-img">
@@ -1167,15 +1294,35 @@
           </figure>
         </section>
 
-        <section class="contact-form">
+        <section class="contact-form" style="color: white; line-height: 1.8;">
 
-          <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title" style="color: white; margin-bottom: 20px;">Contact Details</h3>
         
-          <!-- Replace the following iframe code with your Google Form embed code -->
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIXhUgBk28pQnpihk0WWdZ5EspgdUqNZRVbCg3M9z5myYTCQ/viewform?embedded=true" width="640" height="889" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Email</h4>
+            <p>
+              <strong>Primary:</strong> <a href="mailto:kush.borikar@gmail.com" style="color: white; text-decoration: underline;">kush.borikar@gmail.com</a><br>
+              <strong>Secondary:</strong> <a href="mailto:borikarkush@gmail.com" style="color: white; text-decoration: underline;">borikarkush@gmail.com</a>
+            </p>
+          </div>
+        
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Phone</h4>
+            <p>
+              <span style="color: white;">+1 (408) 460-0243</span>
+            </p>
+          </div>
+        
+          <div class="contact-item" style="margin-bottom: 20px;">
+            <h4 style="color: white;">Location</h4>
+            <p>
+              Based in San Francisco, California.<br>
+              Open to relocating anywhere in the United States.
+            </p>
+          </div>
         
         </section>
-        
+              
 
       </article>
 
